@@ -1,0 +1,41 @@
+{
+  "name": "dom-is-element",
+  "description": "Check if a value is a DOM element",
+  "keywords": [
+    "DOM",
+    "element",
+    "is"
+  ],
+  "version": "1.0.0",
+  "scripts": {
+    "build": "ebam",
+    "test": "echo \"no test\""
+  },
+  "license": "MIT",
+  "ebam": {
+    "entry": "src/index.js",
+    "transforms": {
+      "dangerousForOf": false,
+      "dangerousTaggedTemplateString": false
+    },
+    "test": {
+      "dest": "test/code.js",
+      "src": "test/src.js"
+    }
+  },
+  "author": "Quentin Engles <hollowdoor99@gmail.com> (https://hollowdoor.github.io)",
+  "main": "dist/bundle.js",
+  "jsnext:main": "dist/bundle.es.js",
+  "module": "dist/bundle.es.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollowdoor/dom_is_element.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hollowdoor/dom_is_element/issues"
+  },
+  "homepage": "https://github.com/hollowdoor/dom_is_element#readme"
+}
