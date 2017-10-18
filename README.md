@@ -10,6 +10,12 @@ Usage
 ---
 
 ```javascript
+import isElement from 'dom-is-element';
+
+console.log(isElement({})); //false
+console.log(isElement(null)); //false
+console.log(isElement([])); //false
+console.log(isElement(document.createElement('div'))); //true
 
 ```
 
